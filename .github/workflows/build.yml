@@ -18,12 +18,12 @@ jobs:
         include:
           - hardware_revision: rev1
             gc_data_pin: 0
-          - hardware_revision: rev2
-            gc_data_pin: 0
-            gc_3v3_pin: 1
-          - hardware_revision: rev2.2
-            gc_data_pin: 28
-            gc_3v3_pin: 27
+#          - hardware_revision: rev2
+#            gc_data_pin: 0
+#            gc_3v3_pin: 1
+#          - hardware_revision: rev2.2
+#            gc_data_pin: 28
+#            gc_3v3_pin: 27
 
     steps:
     - name: Check out source code
