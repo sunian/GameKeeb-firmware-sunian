@@ -56,10 +56,10 @@ void makeReport(const RectangleInput &rectangleInput, gc_report_t *report) {
         }
     } else if (socd == SOCD_2IP_NO_REAC) {
         /* 2nd Input Priority no reactivation */
-        if (left_wasPressed && ri.left && ri.right && !right_wasPressed) left_outlawUntilRelease=true;
-        if (right_wasPressed && ri.left && ri.right && !left_wasPressed) right_outlawUntilRelease=true;
-        if (up_wasPressed && ri.up && ri.down && !down_wasPressed) up_outlawUntilRelease=true;
-        if (down_wasPressed && ri.up && ri.down && !up_wasPressed) down_outlawUntilRelease=true;
+//        if (left_wasPressed && ri.left && ri.right && !right_wasPressed) left_outlawUntilRelease=true;
+//        if (right_wasPressed && ri.left && ri.right && !left_wasPressed) right_outlawUntilRelease=true;
+//        if (up_wasPressed && ri.up && ri.down && !down_wasPressed) up_outlawUntilRelease=true;
+//        if (down_wasPressed && ri.up && ri.down && !up_wasPressed) down_outlawUntilRelease=true;
 
         if (!ri.left) left_outlawUntilRelease=false;
         if (!ri.right) right_outlawUntilRelease=false;
